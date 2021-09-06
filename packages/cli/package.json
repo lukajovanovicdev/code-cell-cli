@@ -1,6 +1,6 @@
 {
   "name": "code-cell",
-  "version": "1.0.2-alpha.0+f13e63a",
+  "version": "1.0.2",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@code-cell/local-client": "^1.0.2-alpha.0+f13e63a"
+    "@code-cell/local-client": "^1.0.2"
   },
   "devDependencies": {
-    "@code-cell/local-api": "^1.0.2-alpha.0+f13e63a",
+    "@code-cell/local-api": "^1.0.2",
     "@types/node": "^16.7.10",
     "commander": "^8.1.0",
     "esbuild": "0.8.26",
