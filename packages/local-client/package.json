@@ -1,6 +1,6 @@
 {
   "name": "@code-cell/local-client",
-  "version": "1.0.2-alpha.0+f13e63a",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
