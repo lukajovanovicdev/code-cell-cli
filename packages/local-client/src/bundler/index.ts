@@ -26,7 +26,7 @@ const bundle = async (rawCode: string) => {
       jsxFragment: '_React.Fragment',
     });
     return { code: result.outputFiles[0].text, err: '' };
-  } catch (error) {
+  } catch (error: any) {
     return { code: '', err: error.message };
   }
 };
