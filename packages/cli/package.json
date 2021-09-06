@@ -1,6 +1,6 @@
 {
   "name": "code-cell",
-  "version": "1.0.1",
+  "version": "1.0.2-alpha.0+f13e63a",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -11,20 +11,20 @@
   ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\"'production'\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@code-cell/local-client": "^1.0.1"
+    "@code-cell/local-client": "^1.0.2-alpha.0+f13e63a"
   },
   "devDependencies": {
-    "@code-cell/local-api": "^1.0.1",
+    "@code-cell/local-api": "^1.0.2-alpha.0+f13e63a",
     "@types/node": "^16.7.10",
     "commander": "^8.1.0",
     "esbuild": "0.8.26",
     "typescript": "^4.4.2"
   },
-  "gitHead": "32b4bb81434817d4b43c34fdce50bcea7911876d"
+  "gitHead": "f13e63a26e5ac42c2deed501056c592118691255"
 }

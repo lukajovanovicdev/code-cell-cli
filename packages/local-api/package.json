@@ -1,6 +1,6 @@
 {
   "name": "@code-cell/local-api",
-  "version": "1.0.1",
+  "version": "1.0.2-alpha.0+f13e63a",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.js",
@@ -23,10 +23,10 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "@code-cell/local-client": "^1.0.1",
+    "@code-cell/local-client": "^1.0.2-alpha.0+f13e63a",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^2.0.1"
   },
-  "gitHead": "32b4bb81434817d4b43c34fdce50bcea7911876d"
+  "gitHead": "f13e63a26e5ac42c2deed501056c592118691255"
 }
